@@ -242,6 +242,17 @@ span.small-title span.small {
 .second-row .box .small-value {
 	float: right;
 }
+
+.second-row .text-warning .small-value {
+	float: none;
+  margin-left: 1em;
+}
+
+.second-row .text-warning .small-value .text-warning {
+	color: #ffc22f;
+	text-decoration: underline;
+}
+
 .big-info .small-value {
 	position: absolute;
 	right: 14px;
